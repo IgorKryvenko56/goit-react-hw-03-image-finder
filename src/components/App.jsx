@@ -7,7 +7,7 @@ import './App.css';
 import Loader from './Loader/Loader';
 import Modal from './Modal/Modal';
 import '../styles.css';
-import Notiflix from 'notiflix';
+// import Notiflix from 'notiflix';
 
 const API_KEY = '35695816-a21dc46a31ad12c59a935ea58';
 
