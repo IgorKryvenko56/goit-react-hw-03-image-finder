@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './SearchBar.css';
-import { ReactComponent as SearchIcon } from '../icons8-search.svg';
+import { ReactComponent as SearchIcon } from  '../icons8-search.svg';
+
 
 class SearchBar extends Component {
   state = {
@@ -27,8 +28,7 @@ class SearchBar extends Component {
           <button type="submit" className="button">
             <span className="button-label">
               <SearchIcon className="search-icon" size = {25} />
-               Search
-            </span>
+               </span>
           </button>
 
           <input

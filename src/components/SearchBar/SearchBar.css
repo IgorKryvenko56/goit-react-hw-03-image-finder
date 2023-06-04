@@ -59,20 +59,22 @@
   font: inherit;
   font-size: 18px;
 }
-.button-label {
-  position: relative;
+ .button-label {
+  position:relative;
   width: 1px;
   height: 1px;
   padding: 0;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  clip-path: inset(50%);
-  border: 0;
-}
+  } 
 .search-icon {
-  position: absolute; 
-  top: 50%;
-  left: 0.5rem; 
+  position: relative; 
+  top: 35%;
+  left: 0.3rem; 
   transform: translateY(-50%);
+  background-image: url('../icons8-search.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25px;
+  height: 25px;
 }
